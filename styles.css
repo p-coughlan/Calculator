@@ -40,7 +40,7 @@ body {
     pointer-events: none;
 }
 
-/*----------------------Button grid - layout-------------------*/
+/*----------------------Button grid-layout-------------------*/
 
 .buttons {
     display: grid;
@@ -63,4 +63,10 @@ body {
 
 .buttons button:active {
     transform: scale(0.99);
+}
+
+/*----------------------Different font color for operator button--------------------*/
+
+.operator {
+    color: #2f9fff;
 }
